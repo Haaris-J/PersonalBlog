@@ -1,0 +1,48 @@
+/*
+Author - Muhammad Haaris J
+*/
+h2 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.edu-column {
+    flex: 33.33%;
+    padding: 5%;
+    text-align: center;
+}
+
+.exp-logo-column {
+    flex: 30%;
+    padding: 5%;
+    text-align: center;
+}
+
+.exp-desc-column {
+    flex: 70%;
+    padding: 5%;
+    text-align: left;
+    font-size: x-large;
+}
+
+.skills-column {
+    flex: 20%;
+    padding: 4%;
+    text-align: center;
+}
+
+.skills-column img {
+    width: 80%;
+}
+
+/* Mobile and Table screen size */
+@media (max-width: 1200px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}

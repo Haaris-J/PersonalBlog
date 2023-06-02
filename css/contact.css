@@ -1,0 +1,60 @@
+/*
+Author - Muhammad Haaris J
+*/
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+#contact-table {
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.table-font {
+    font-size: 150%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #D5E8D4;
+}
+
+@media (min-width: 300px) and (max-width: 576px) {
+
+    .table-font {
+        font-size: 70%;
+    }
+
+    #contact-table {
+        padding-top: 15%;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+
+    .table-font {
+        font-size: 100%;
+    }
+
+    #contact-table {
+        padding-left: 7%;
+        padding-right: 4%;
+        padding-top: 10%;
+    }
+
+}

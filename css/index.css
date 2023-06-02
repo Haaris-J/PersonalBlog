@@ -1,0 +1,74 @@
+/*
+Author - Muhammad Haaris J
+*/
+main {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3%;
+}
+
+/* brief intro positioning */
+
+#brief-intro {
+    padding-left: 10%;
+    padding-top: 3%;
+    flex: 50%;
+}
+
+#user-pic {
+    padding-top: 4%;
+    flex: 50%;
+    padding-left: 6%;
+}
+
+#user-pic img {
+    width: 55%;
+    height: 100%;
+}
+
+
+/* Mobile device screen */
+@media (min-width: 300px) and (max-width: 576px) {
+
+    .bigfont {
+        font-size: 350%;
+    }
+
+    .midfont {
+        font-size: 200%;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #user-pic {
+        padding-left: 13%;
+    }
+
+    #user-pic img {
+        width: 85%;
+        height: 130%;
+    }
+
+}
+
+/* Tablet device screen */
+@media (min-width: 600px) and (max-width: 1200px) {
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #brief-intro {
+        text-align: center;
+        padding-left: 0%;
+    }
+
+    #user-pic {
+        padding-left: 30%;
+    }
+
+}
